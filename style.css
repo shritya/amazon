@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    color: white;
+    height: 70px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+    justify-content: center;
+}
+.logo{
+    height: 50px;
+}
+header nav form{
+    display: flex;
+    column-gap: 0;
+    height: 36px;
+    width: 50%;
+}
+.n-item1{
+    display: flex;
+    align-items: center;
+}
+.n-child1{
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+    /* flex-direction: column; */
+}
+.n-child1 p{
+    margin: 0;
+}
+.n-child1 span{
+    display: flex;
+}
+.n-child1 span h4{
+    margin: 0;
+}
+.form-select{
+    font-size: 12.4px;
+    padding: 5px;
+    border: none;
+    background-color: gainsboro;
+
+}
+.location-nav{
+    /* display: inline; */
+    height: 20px;
+}
+.form-search{
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+.form-button{
+    border: none;
+    background-color: orange;
+    /* height: 38px; */
+    width: 36px;
+    padding: 7px;
+}
+.nav-list2{
+    display: flex;
+}
+.india-dropdown{
+    border: none;
+    height:30px;
+    background-color: transparent;
+}
+.india{
+    height: 500px;
+}
+.nav-list2 span p{
+    margin: 0;
+}
+.nav-list2 span{
+    /* color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-list2-child{
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.nav-list2-child option{
+    color: black;
+}
+
+.navlist3-h{
+    margin: 0;
+}
+.nav-list3 p{
+    display: block;
+    margin: 0;
+}
+.nav-list4{
+    display: flex;
+    align-items: baseline;
+}
+.shopping-cart{
+    height: 20px;
+}
+@media screen and (max-width:1024px) {
+    nav{
+        height: 10vh;
+        flex-direction: column;
+        /* visibility: hidden; */
+    }
+
+    .n-item1{
+        /* display: none; */
+    }
+    .nav-list2{
+        display: none;
+
+    }
+    .nav-list3{
+        display: none;
+
+    }
+    .nav-list4{
+        display: none;
+
+    }
+    header{
+        background-color: gray;
+
+    }
+    form{
+        visibility: visible;
+    }
+    
+    
+}
